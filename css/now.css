@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navhome{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: rgba(0, 0,0, 0.5);
+    position: sticky;
+    top: 0;
+}
+.navhome ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+
+
+}
+.navhome ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight:bold ;
+}
+.navhome ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navhome ul li a:hover{
+    background-color: rgb(235, 212, 212);
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+#now{
+    display: flex;
+    flex-direction: column;
+    color: wheat;
+    background-color: rgb(10, 10, 10);
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0)
+}
+#heading{
+    font-family: cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px;
+    color: wheat;
+
+}
+
+.whole{
+    margin: 5rem auto;
+    width: min(90%, 75rem);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1em;
+    gap: 40px;
+    color: wheat;
+
+}
+.edu{
+    border: solid 4px #f8f2f2;
+    text-align: center;
+   color: rgb(247, 238, 218);
+}
+.tutor{
+    border: solid 4px #f3f0f0;
+    text-align: center;
+    
+    color: wheat;
+}
+.edu:hover{
+    box-shadow:0 0 20px white;
+}
+.tutor:hover{
+    box-shadow:0 0 20px white;
+}
+footer{
+    background-color: rgba(0, 0,0, 0.5);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+}
+.icons{
+    width: 35px;
+    height: 35px;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+
+}

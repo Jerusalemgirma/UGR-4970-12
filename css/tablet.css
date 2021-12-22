@@ -1,0 +1,50 @@
+.navhome ul{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.heading{
+    font-size: 2.5rem;
+}
+
+#mom{
+    flex-direction: column;
+    align-items: center;
+}
+#mom img{
+    width: 475px;
+    height: 300px;
+}
+#intro h2{
+    text-align: center;
+    padding: 10px;
+}
+
+.input{
+    width: 60%;
+}
+#msg{
+    width: 55%;
+}
+#send{
+    width: 20%;
+}
+#none {
+    text-align: center;
+    padding: 10px;
+}
+.sis{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#now{
+    text-align: center;
+    padding: 10px;
+}
+.icons{
+    display: inline;
+    text-align: center;
+}

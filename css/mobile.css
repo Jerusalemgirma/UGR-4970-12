@@ -1,0 +1,57 @@
+.navhome ul{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#home{
+    height: 820px;
+}
+.headings{
+    font-size: 1.7rem;
+}
+
+
+
+#mom img{
+    width: 300px;
+    height: 175px;
+
+}
+#intro h2{
+    font-size: 1.5rem;
+}
+
+
+.input{
+    width: 80%;
+}
+#msg{
+    width: 70%;
+}
+#send{
+    width: 20%;
+}
+#none {
+    text-align: center;
+    padding: 10px;
+}
+.sis{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;}
+.sc1{
+    box-sizing: border-box;
+    justify-content: center;
+    width: 200px;
+    height: 150px;
+}
+
+#now{
+    text-align: center;
+    padding: 10px;
+}
+.icons{
+    display: inline;
+    text-align: center;
+}

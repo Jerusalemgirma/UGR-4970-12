@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navhome{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: rgba(0, 0,0, 0.5);
+    position: sticky;
+    top: 0;
+}
+.navhome ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+
+
+}
+.navhome ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight:bold ;
+}
+.navhome ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navhome ul li a:hover{
+    background-color: rgb(235, 212, 212);
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+#education{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    background: url(black\ 1.png) no-repeat center center/cover;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#heading{
+    font-family: cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px;
+}
+
+
+.sis h2{
+    text-align: center;
+    text-decoration: none;
+    text-decoration: bold;
+}
+#sis img{
+    width: 447px;
+    height: 275px
+}
+.sis{
+    margin: 5rem auto;
+    width: min(90%, 75rem);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1em;
+    gap: 40px;
+}
+.s1{
+    border: outset 4px #eaddc4;
+    text-align: center;
+}
+.s2{
+    border: outset 4px #eaddc4;
+    text-align: center;
+}
+.s1:hover{
+    background-position: left bottom;
+    color: white;
+    
+    box-shadow:0 0 20px white ;
+}
+.s2:hover{
+    background-position: left bottom;
+    color: white;
+    box-shadow:0 0 20px white ;
+}
+#prep{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px; 
+    margin-bottom: 50px;
+    
+}
+
+#prep img{
+    width : 447px;
+    height: 275pxx;
+    box-sizing: border-box;
+    margin-right: 20px;
+    padding: 20px;
+}
+footer{
+    background-color: rgba(0, 0,0, 0.5);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    gap: 30px;
+}
+.icons{
+    width: 35px;
+    height: 35px;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+
+}
